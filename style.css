@@ -1,9 +1,11 @@
 body{margin:0; padding:0; background-color: #f0ebf8;}
 header{background-color:#673ab7; height:200px; width:100%;}
 div{height:1200px; border:1px solid gray; width:60%; position:relative; left:250px; bottom:100px; 
-background-color: white; border-top: 8px solid #ae79ff; box-shadow:-6px 9px 90px 1px grey}
-h1{margin-left:35px;}
+background-color: white; border-top: 8px solid #ae79ff; box-shadow:-6px 9px 90px 0.5px grey}
+h1{margin-left:35px; font-family: 'PT Sans', sans-serif;}
 #dummy{margin-left:35px;}
 #required{margin-left:35px; color:red;}
-h2{margin-left:35px;}
+h2{margin-left:35px; font-family: 'Noto Sans', sans-serif; font-size:25px;}
 input{margin-left:35px;}
+button{margin-left:35px; margin-top:35px; height:30px; width:60px; border-radius:8px; background-color:#1a73e8;
+color:white;}
