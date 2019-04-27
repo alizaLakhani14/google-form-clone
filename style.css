@@ -1,0 +1,9 @@
+body{margin:0; padding:0; background-color: #f0ebf8;}
+header{background-color:#673ab7; height:200px; width:100%;}
+div{height:1200px; border:1px solid gray; width:60%; position:relative; left:250px; bottom:100px; 
+background-color: white; border-top: 8px solid #ae79ff; box-shadow:-6px 9px 90px 1px grey}
+h1{margin-left:35px;}
+#dummy{margin-left:35px;}
+#required{margin-left:35px; color:red;}
+h2{margin-left:35px;}
+input{margin-left:35px;}
