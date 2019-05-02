@@ -19,48 +19,48 @@
         <p id="dummy">This is just a dummy form. Don't fill it. Just PNG Slice it!</p>
         <p id="required">* Required</p>
         <form>
-            <h2>Full name*</h2>
-            <input type="text" placeholder="Your answer" required>
-            <h2>Phone number*</h2>
-            <input type="number" placeholder="Your answer" required>
-            <h2>Email</h2>
-            <input type="email" placeholder="Your answer">
-            <h2>Gender</h2>
-            <form>
-                <input type="radio" name="gender" value="Male">Male<br>
-                <input type="radio" name="gender" value="Female">Female
-            </form>
-            <h2>Age</h2>
-            <input type="number" placeholder="Your answer">
-            <h2>Date of Birth</h2>
-            <input type="date">
-            <h2>Choose all life skills you would like to learn in TK 2019</h2>
-            <form>
-                <input type="checkbox" name="problem" value="Problem solving">Problem solving<br>
-                <input type="checkbox" name="team" value="Team work">Team work<br>
-                <input type="checkbox" name="communication skills" value="Communication skills">Communication skills<br>
-                <input type="checkbox" name="" value="Presentation skills">Presentation skills<br>
-                <input type="checkbox" name="" value="Cv/ Resume writing">Cv/ Resume writing<br>
-                <input type="checkbox" name="" value="Self Defence">Self Defence<br>
-                <input type="checkbox" name="" value="Work Ethics">Work Ethics<br>
+            <label for="name"><h2>Full name*</h2></label>
+            <input type="text" placeholder="Your answer" required id="name">
+            <label for="phone"><h2>Phone number*</h2></label>
+            <input type="number" placeholder="Your answer" required id="phone">
+            <label for="email"><h2>Email</h2></label>
+            <input type="email" placeholder="Your answer" id="email">
+            <label for="gender"><h2>Gender</h2></label>
 
-            </form>
-            <h2>Rate orientation class of TK 2019 </h2>
-            <form>
-                <input type="radio" name="number" value="1">1
-                <input type="radio" name="number" value="2">2
-                <input type="radio" name="number" value="3">3
-                <input type="radio" name="number" value="4">4
-                <input type="radio" name="number" value="5">5
-                <input type="radio" name="number" value="6">6
-                <input type="radio" name="number" value="7">7
-                <input type="radio" name="number" value="8">8
-                <input type="radio" name="number" value="9">9
-                <input type="radio" name="number" value="10">10
-            </form>
-            <h2>Comments</h2>
-            <input type="text" placeholder="Your answer"><br>
-           <button>
+            <input type="radio" name="gender" value="Male" class="gender">Male<br>
+            <input type="radio" name="gender" value="Female" class="gender">Female
+
+            <label for="age"><h2>Age</h2></label>
+            <input type="number" placeholder="Your answer" id="age">
+            <label for="date-of-birth"><h2>Date of Birth</h2></label>
+            <input type="date" id="date-of-birth">
+            <label for="skills"><h2>Choose all life skills you would like to learn in TK 2019</h2></label>
+
+            <input type="checkbox" name="problem" value="Problem solving" class="skills">Problem solving<br>
+            <input type="checkbox" name="team" value="Team work" class="skills">Team work<br>
+            <input type="checkbox" name="communication skills" value="Communication skills" class="skills">Communication skills<br>
+            <input type="checkbox" name="" value="Presentation skills" class="skills">Presentation skills<br>
+            <input type="checkbox" name="" value="Cv/ Resume writing" class="skills">Cv/ Resume writing<br>
+            <input type="checkbox" name="" value="Self Defence" class="skills">Self Defence<br>
+            <input type="checkbox" name="" value="Work Ethics" class="skills">Work Ethics<br>
+
+
+            <label for="rating"><h2>Rate orientation class of TK 2019 </h2></label>
+
+            <input type="radio" name="number" value="1" class="rating">1
+            <input type="radio" name="number" value="2" class="rating">2
+            <input type="radio" name="number" value="3" class="rating">3
+            <input type="radio" name="number" value="4" class="rating">4
+            <input type="radio" name="number" value="5" class="rating">5
+            <input type="radio" name="number" value="6" class="rating">6
+            <input type="radio" name="number" value="7" class="rating">7
+            <input type="radio" name="number" value="8" class="rating">8
+            <input type="radio" name="number" value="9" class="rating">9
+            <input type="radio" name="number" value="10" class="rating">10
+
+            <label for="comments"><h2>Comments</h2></label>
+            <input type="text" placeholder="Your answer" id="comments"><br>
+            <button>
                Submit
            </button>
         </form>
