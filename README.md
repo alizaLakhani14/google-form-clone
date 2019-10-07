@@ -1,2 +1,1 @@
-# project
-This site is published at:https://alizalakhani14.github.io/project/.
+https://alizalakhani14.github.io/google-form-clone/
